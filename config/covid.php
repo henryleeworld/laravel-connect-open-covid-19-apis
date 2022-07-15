@@ -7,7 +7,7 @@ return [
      *
      */
 
-    'api_key'  => 'f7ab4a66b3msh4dcfecb87b55929p18c476jsnf6acba9a1cb1', // get an API key
+    'api_key'  => env('COVID_19_API_KEY', ''), // get an API key
 ];
 
 ?>
