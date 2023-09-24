@@ -1,4 +1,4 @@
-# Laravel 9 連結開放武漢肺炎（新型冠狀病毒）API
+# Laravel 10 連結開放武漢肺炎（新型冠狀病毒）API
 
 引入 rakibdevs 的 covid19-laravel-api 套件來擴增連結開放武漢肺炎（新型冠狀病毒）API，將這些資訊更直接的取得，以提供感染、康復和死亡等資訊。
 
@@ -22,5 +22,5 @@ $ php artisan key:generate
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/t07IKt1.png)
+![](https://i.imgur.com/SZp4VbH.png)
 > 出遊前確認自己身體的狀況，本身如果有呼吸道或腸胃道症狀盡量在家休息。出門前除了口罩以外，別忘了攜帶隨身瓶酒精性乾洗手液，不管是吃東西前，還是要接觸眼、口、鼻時都要先清潔，保持手部的乾淨
