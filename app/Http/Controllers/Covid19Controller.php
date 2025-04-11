@@ -11,12 +11,12 @@ class Covid19Controller extends Controller
     {
         $wt = new Covid19();
         // $info = $wt->getAllCountries();
-        echo '台灣目前數據' . PHP_EOL;
+        echo __('Taiwan\'s current data') . PHP_EOL;
         $info = $wt->getHistory('Taiwan', Carbon::now()->toDateString());
         $response = $info->response[0];
-        echo '人口總數：' . $response->population . PHP_EOL;
-        echo '病例總數：' . $response->cases->total . PHP_EOL;
-        echo '康復人數：' . $response->cases->recovered . PHP_EOL;
-        echo '死亡人數：' . $response->deaths->total . PHP_EOL;
+        echo __('Total population:') . $response->population . PHP_EOL;
+        echo __('Total cases:') . $response->cases->total . PHP_EOL;
+        echo __('Number of people who have recovered:') . $response->cases->recovered . PHP_EOL;
+        echo __('Deaths:') . $response->deaths->total . PHP_EOL;
     }
 }
