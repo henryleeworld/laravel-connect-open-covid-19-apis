@@ -2,11 +2,14 @@
 
 namespace App\Http\Controllers;
 
-use Carbon\Carbon;
+use Illuminate\Support\Carbon;
 use RakibDevs\Covid19\Covid19;
 
 class Covid19Controller extends Controller
 {
+    /**
+     * Display the specified resource.
+     */
     public function show() 
     {
         $wt = new Covid19();
